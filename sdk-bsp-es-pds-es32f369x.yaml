@@ -1,0 +1,103 @@
+board:
+  buy_url_cn: https://detail.tmall.com/item.htm?id=620924134160
+  buy_url_global: https://www.essemi.com/
+  debug_interface: SWD
+  debugger: DAP-LINK
+  description_en:   .
+  description_zh: ES-PDS-ES32F369X是东软载波官方推出的一款基于 ARM Cortex-M3 内核的开发板。ES-PDS（原型开发系统）以高性价比，灵活的扩展方式，提供原型设计和评估支持。
+  emulator_machine: ''
+  large_image: documents/images/board_large.jpg
+  name: ES-PDS-ES32F369X
+  price_cn: 120.00 CNY
+  price_global: 20.00 USD
+  sale_contact_cn: https://www.essemi.com/
+  sale_contact_global: https://www.essemi.com/
+  small_image: documents/images/board_small.jpg
+  vendor: ES32
+  version: 1.3
+chip:
+  chip_name: ES32F3696LT
+  clock_source: HSE
+  device_vendor: ES
+  family_name: ES32
+  rx_name: PC5
+  series_name: ES32F3
+  source_freq: '8000000'
+  sub_series_name: ES32F369X
+  target_freq: '96000000'
+  tx_name: PC4
+  uart_name: UART3
+default_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - drivers
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: rtt_default_project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: ''
+  project_type: rt-thread|@full|@latest
+docs:
+- category: manual
+  file: documents/manuals/ES32F36xx_Reference_Manual_C V1.2.pdf
+  title: Reference manual
+- category: sheet
+  file: documents/sheet/ES32F369x_Datasheet_C V1.1.pdf
+  title:  Datasheet
+example_projects: []
+features:
+- " "
+- " "
+- " "
+features_zh:
+- "MCU：ES32F3696LT，主频 96MHz，512KB FLASH ，96KB SRAM "
+- "LED：2个，LED1（PF0），LED2（PF1）"
+- "按键：5个，UP（PB2），DOWN（PB12），LEFT（PC11），RIGHT（PC12）,MID（PC10）"
+- "常用接口：USB-OTG"
+- "调试接口：SWD"
+pkg_type: Board_Support_Packages
+pkg_vendor: 'RealThread'
+pkg_version: 0.0.1
+yaml_version: 1
