@@ -209,6 +209,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_TX_GPIO_PIN 
 #define ES_UART0_TX_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_UART0_TX_PIN 
+#ifdef ES_PIN_GPIO_B_10 
+#define ES_UART0_TX_PIN ES_PIN_GPIO_B_10 
+#endif
+#endif 
+
 #ifndef ES_UART0_TX_GPIO_FUNC 
 #define ES_UART0_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -218,6 +225,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_TX_GPIO_PIN 
 #define ES_UART0_TX_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_UART0_TX_PIN 
+#ifdef ES_PIN_GPIO_H_0 
+#define ES_UART0_TX_PIN ES_PIN_GPIO_H_0 
+#endif
+#endif 
+
 #ifndef ES_UART0_TX_GPIO_FUNC 
 #define ES_UART0_TX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -227,6 +241,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_TX_GPIO_PIN 
 #define ES_UART0_TX_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_UART0_TX_PIN 
+#ifdef ES_PIN_GPIO_D_8 
+#define ES_UART0_TX_PIN ES_PIN_GPIO_D_8 
+#endif
+#endif 
+
 #ifndef ES_UART1_TX_GPIO_FUNC 
 #define ES_UART1_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -236,6 +257,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_TX_GPIO_PIN 
 #define ES_UART1_TX_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_UART1_TX_PIN 
+#ifdef ES_PIN_GPIO_C_0 
+#define ES_UART1_TX_PIN ES_PIN_GPIO_C_0 
+#endif
+#endif 
+
 #ifndef ES_UART1_TX_GPIO_FUNC 
 #define ES_UART1_TX_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -245,6 +273,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_TX_GPIO_PIN 
 #define ES_UART1_TX_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_UART1_TX_PIN 
+#ifdef ES_PIN_GPIO_A_13 
+#define ES_UART1_TX_PIN ES_PIN_GPIO_A_13 
+#endif
+#endif 
+
 #ifndef ES_UART1_TX_GPIO_FUNC 
 #define ES_UART1_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -254,6 +289,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_TX_GPIO_PIN 
 #define ES_UART1_TX_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_UART1_TX_PIN 
+#ifdef ES_PIN_GPIO_C_10 
+#define ES_UART1_TX_PIN ES_PIN_GPIO_C_10 
+#endif
+#endif 
+
 #ifndef ES_UART1_TX_GPIO_FUNC 
 #define ES_UART1_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -263,6 +305,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_TX_GPIO_PIN 
 #define ES_UART1_TX_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_UART1_TX_PIN 
+#ifdef ES_PIN_GPIO_D_5 
+#define ES_UART1_TX_PIN ES_PIN_GPIO_D_5 
+#endif
+#endif 
+
 #ifndef ES_UART2_TX_GPIO_FUNC 
 #define ES_UART2_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -272,6 +321,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_TX_GPIO_PIN 
 #define ES_UART2_TX_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_UART2_TX_PIN 
+#ifdef ES_PIN_GPIO_E_2 
+#define ES_UART2_TX_PIN ES_PIN_GPIO_E_2 
+#endif
+#endif 
+
 #ifndef ES_UART2_TX_GPIO_FUNC 
 #define ES_UART2_TX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -281,6 +337,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_TX_GPIO_PIN 
 #define ES_UART2_TX_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_UART2_TX_PIN 
+#ifdef ES_PIN_GPIO_C_12 
+#define ES_UART2_TX_PIN ES_PIN_GPIO_C_12 
+#endif
+#endif 
+
 #ifndef ES_UART2_TX_GPIO_FUNC 
 #define ES_UART2_TX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -290,6 +353,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_TX_GPIO_PIN 
 #define ES_UART2_TX_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_UART2_TX_PIN 
+#ifdef ES_PIN_GPIO_B_3 
+#define ES_UART2_TX_PIN ES_PIN_GPIO_B_3 
+#endif
+#endif 
+
 #ifndef ES_UART3_TX_GPIO_FUNC 
 #define ES_UART3_TX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -299,6 +369,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_TX_GPIO_PIN 
 #define ES_UART3_TX_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_UART3_TX_PIN 
+#ifdef ES_PIN_GPIO_C_4 
+#define ES_UART3_TX_PIN ES_PIN_GPIO_C_4 
+#endif
+#endif 
+
 #ifndef ES_UART3_TX_GPIO_FUNC 
 #define ES_UART3_TX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -308,6 +385,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_TX_GPIO_PIN 
 #define ES_UART3_TX_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_UART3_TX_PIN 
+#ifdef ES_PIN_GPIO_E_10 
+#define ES_UART3_TX_PIN ES_PIN_GPIO_E_10 
+#endif
+#endif 
+
 #ifndef ES_UART3_TX_GPIO_FUNC 
 #define ES_UART3_TX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -317,6 +401,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_TX_GPIO_PIN 
 #define ES_UART3_TX_GPIO_PIN GPIO_PIN_14 
 #endif 
+
+#ifndef ES_UART3_TX_PIN 
+#ifdef ES_PIN_GPIO_D_14 
+#define ES_UART3_TX_PIN ES_PIN_GPIO_D_14 
+#endif
+#endif 
+
 #ifndef ES_UART4_TX_GPIO_FUNC 
 #define ES_UART4_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -326,6 +417,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_TX_GPIO_PIN 
 #define ES_UART4_TX_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_UART4_TX_PIN 
+#ifdef ES_PIN_GPIO_B_6 
+#define ES_UART4_TX_PIN ES_PIN_GPIO_B_6 
+#endif
+#endif 
+
 #ifndef ES_UART4_TX_GPIO_FUNC 
 #define ES_UART4_TX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -335,6 +433,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_TX_GPIO_PIN 
 #define ES_UART4_TX_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_UART4_TX_PIN 
+#ifdef ES_PIN_GPIO_E_10 
+#define ES_UART4_TX_PIN ES_PIN_GPIO_E_10 
+#endif
+#endif 
+
 #ifndef ES_UART5_TX_GPIO_FUNC 
 #define ES_UART5_TX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -344,6 +449,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_TX_GPIO_PIN 
 #define ES_UART5_TX_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_UART5_TX_PIN 
+#ifdef ES_PIN_GPIO_A_2 
+#define ES_UART5_TX_PIN ES_PIN_GPIO_A_2 
+#endif
+#endif 
+
 #ifndef ES_UART5_TX_GPIO_FUNC 
 #define ES_UART5_TX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -353,6 +465,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_TX_GPIO_PIN 
 #define ES_UART5_TX_GPIO_PIN GPIO_PIN_9 
 #endif 
+
+#ifndef ES_UART5_TX_PIN 
+#ifdef ES_PIN_GPIO_B_9 
+#define ES_UART5_TX_PIN ES_PIN_GPIO_B_9 
+#endif
+#endif 
+
 #ifndef ES_UART5_TX_GPIO_FUNC 
 #define ES_UART5_TX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -362,6 +481,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_TX_GPIO_PIN 
 #define ES_UART5_TX_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_UART5_TX_PIN 
+#ifdef ES_PIN_GPIO_D_5 
+#define ES_UART5_TX_PIN ES_PIN_GPIO_D_5 
+#endif
+#endif 
+
 
 /* UART_RX */
 
@@ -375,6 +501,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_RX_GPIO_PIN 
 #define ES_UART0_RX_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_UART0_RX_PIN 
+#ifdef ES_PIN_GPIO_B_11 
+#define ES_UART0_RX_PIN ES_PIN_GPIO_B_11 
+#endif
+#endif 
+
 #ifndef ES_UART0_RX_GPIO_FUNC 
 #define ES_UART0_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -384,6 +517,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_RX_GPIO_PIN 
 #define ES_UART0_RX_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_UART0_RX_PIN 
+#ifdef ES_PIN_GPIO_H_1 
+#define ES_UART0_RX_PIN ES_PIN_GPIO_H_1 
+#endif
+#endif 
+
 #ifndef ES_UART0_RX_GPIO_FUNC 
 #define ES_UART0_RX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -393,6 +533,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_RX_GPIO_PIN 
 #define ES_UART0_RX_GPIO_PIN GPIO_PIN_9 
 #endif 
+
+#ifndef ES_UART0_RX_PIN 
+#ifdef ES_PIN_GPIO_D_9 
+#define ES_UART0_RX_PIN ES_PIN_GPIO_D_9 
+#endif
+#endif 
+
 #ifndef ES_UART1_RX_GPIO_FUNC 
 #define ES_UART1_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -402,6 +549,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_RX_GPIO_PIN 
 #define ES_UART1_RX_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_UART1_RX_PIN 
+#ifdef ES_PIN_GPIO_C_1 
+#define ES_UART1_RX_PIN ES_PIN_GPIO_C_1 
+#endif
+#endif 
+
 #ifndef ES_UART1_RX_GPIO_FUNC 
 #define ES_UART1_RX_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -411,6 +565,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_RX_GPIO_PIN 
 #define ES_UART1_RX_GPIO_PIN GPIO_PIN_14 
 #endif 
+
+#ifndef ES_UART1_RX_PIN 
+#ifdef ES_PIN_GPIO_A_14 
+#define ES_UART1_RX_PIN ES_PIN_GPIO_A_14 
+#endif
+#endif 
+
 #ifndef ES_UART1_RX_GPIO_FUNC 
 #define ES_UART1_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -420,6 +581,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_RX_GPIO_PIN 
 #define ES_UART1_RX_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_UART1_RX_PIN 
+#ifdef ES_PIN_GPIO_C_11 
+#define ES_UART1_RX_PIN ES_PIN_GPIO_C_11 
+#endif
+#endif 
+
 #ifndef ES_UART1_RX_GPIO_FUNC 
 #define ES_UART1_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -429,6 +597,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_RX_GPIO_PIN 
 #define ES_UART1_RX_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_UART1_RX_PIN 
+#ifdef ES_PIN_GPIO_D_6 
+#define ES_UART1_RX_PIN ES_PIN_GPIO_D_6 
+#endif
+#endif 
+
 #ifndef ES_UART2_RX_GPIO_FUNC 
 #define ES_UART2_RX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -438,6 +613,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_RX_GPIO_PIN 
 #define ES_UART2_RX_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_UART2_RX_PIN 
+#ifdef ES_PIN_GPIO_B_4 
+#define ES_UART2_RX_PIN ES_PIN_GPIO_B_4 
+#endif
+#endif 
+
 #ifndef ES_UART2_RX_GPIO_FUNC 
 #define ES_UART2_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -447,6 +629,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_RX_GPIO_PIN 
 #define ES_UART2_RX_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_UART2_RX_PIN 
+#ifdef ES_PIN_GPIO_E_3 
+#define ES_UART2_RX_PIN ES_PIN_GPIO_E_3 
+#endif
+#endif 
+
 #ifndef ES_UART2_RX_GPIO_FUNC 
 #define ES_UART2_RX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -456,6 +645,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_RX_GPIO_PIN 
 #define ES_UART2_RX_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_UART2_RX_PIN 
+#ifdef ES_PIN_GPIO_D_2 
+#define ES_UART2_RX_PIN ES_PIN_GPIO_D_2 
+#endif
+#endif 
+
 #ifndef ES_UART3_RX_GPIO_FUNC 
 #define ES_UART3_RX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -465,6 +661,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_RX_GPIO_PIN 
 #define ES_UART3_RX_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_UART3_RX_PIN 
+#ifdef ES_PIN_GPIO_C_5 
+#define ES_UART3_RX_PIN ES_PIN_GPIO_C_5 
+#endif
+#endif 
+
 #ifndef ES_UART3_RX_GPIO_FUNC 
 #define ES_UART3_RX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -474,6 +677,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_RX_GPIO_PIN 
 #define ES_UART3_RX_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_UART3_RX_PIN 
+#ifdef ES_PIN_GPIO_E_11 
+#define ES_UART3_RX_PIN ES_PIN_GPIO_E_11 
+#endif
+#endif 
+
 #ifndef ES_UART3_RX_GPIO_FUNC 
 #define ES_UART3_RX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -483,6 +693,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_RX_GPIO_PIN 
 #define ES_UART3_RX_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_UART3_RX_PIN 
+#ifdef ES_PIN_GPIO_D_13 
+#define ES_UART3_RX_PIN ES_PIN_GPIO_D_13 
+#endif
+#endif 
+
 #ifndef ES_UART4_RX_GPIO_FUNC 
 #define ES_UART4_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -492,6 +709,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_RX_GPIO_PIN 
 #define ES_UART4_RX_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_UART4_RX_PIN 
+#ifdef ES_PIN_GPIO_B_7 
+#define ES_UART4_RX_PIN ES_PIN_GPIO_B_7 
+#endif
+#endif 
+
 #ifndef ES_UART4_RX_GPIO_FUNC 
 #define ES_UART4_RX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -501,6 +725,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_RX_GPIO_PIN 
 #define ES_UART4_RX_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_UART4_RX_PIN 
+#ifdef ES_PIN_GPIO_E_11 
+#define ES_UART4_RX_PIN ES_PIN_GPIO_E_11 
+#endif
+#endif 
+
 #ifndef ES_UART5_RX_GPIO_FUNC 
 #define ES_UART5_RX_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -510,6 +741,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_RX_GPIO_PIN 
 #define ES_UART5_RX_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_UART5_RX_PIN 
+#ifdef ES_PIN_GPIO_B_8 
+#define ES_UART5_RX_PIN ES_PIN_GPIO_B_8 
+#endif
+#endif 
+
 #ifndef ES_UART5_RX_GPIO_FUNC 
 #define ES_UART5_RX_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -519,6 +757,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_RX_GPIO_PIN 
 #define ES_UART5_RX_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_UART5_RX_PIN 
+#ifdef ES_PIN_GPIO_A_3 
+#define ES_UART5_RX_PIN ES_PIN_GPIO_A_3 
+#endif
+#endif 
+
 #ifndef ES_UART5_RX_GPIO_FUNC 
 #define ES_UART5_RX_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -528,6 +773,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_RX_GPIO_PIN 
 #define ES_UART5_RX_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_UART5_RX_PIN 
+#ifdef ES_PIN_GPIO_D_6 
+#define ES_UART5_RX_PIN ES_PIN_GPIO_D_6 
+#endif
+#endif 
+
 
 /* UART_RTS */
 
@@ -541,6 +793,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_RTS_GPIO_PIN 
 #define ES_UART0_RTS_GPIO_PIN GPIO_PIN_14 
 #endif 
+
+#ifndef ES_UART0_RTS_PIN 
+#ifdef ES_PIN_GPIO_B_14 
+#define ES_UART0_RTS_PIN ES_PIN_GPIO_B_14 
+#endif
+#endif 
+
 #ifndef ES_UART0_RTS_GPIO_FUNC 
 #define ES_UART0_RTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -550,6 +809,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_RTS_GPIO_PIN 
 #define ES_UART0_RTS_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_UART0_RTS_PIN 
+#ifdef ES_PIN_GPIO_D_12 
+#define ES_UART0_RTS_PIN ES_PIN_GPIO_D_12 
+#endif
+#endif 
+
 #ifndef ES_UART1_RTS_GPIO_FUNC 
 #define ES_UART1_RTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -559,6 +825,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_RTS_GPIO_PIN 
 #define ES_UART1_RTS_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_UART1_RTS_PIN 
+#ifdef ES_PIN_GPIO_C_3 
+#define ES_UART1_RTS_PIN ES_PIN_GPIO_C_3 
+#endif
+#endif 
+
 #ifndef ES_UART1_RTS_GPIO_FUNC 
 #define ES_UART1_RTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -568,6 +841,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_RTS_GPIO_PIN 
 #define ES_UART1_RTS_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_UART1_RTS_PIN 
+#ifdef ES_PIN_GPIO_C_12 
+#define ES_UART1_RTS_PIN ES_PIN_GPIO_C_12 
+#endif
+#endif 
+
 #ifndef ES_UART2_RTS_GPIO_FUNC 
 #define ES_UART2_RTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -577,6 +857,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_RTS_GPIO_PIN 
 #define ES_UART2_RTS_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_UART2_RTS_PIN 
+#ifdef ES_PIN_GPIO_E_5 
+#define ES_UART2_RTS_PIN ES_PIN_GPIO_E_5 
+#endif
+#endif 
+
 #ifndef ES_UART2_RTS_GPIO_FUNC 
 #define ES_UART2_RTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -586,6 +873,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_RTS_GPIO_PIN 
 #define ES_UART2_RTS_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_UART2_RTS_PIN 
+#ifdef ES_PIN_GPIO_C_10 
+#define ES_UART2_RTS_PIN ES_PIN_GPIO_C_10 
+#endif
+#endif 
+
 #ifndef ES_UART3_RTS_GPIO_FUNC 
 #define ES_UART3_RTS_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -595,6 +889,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_RTS_GPIO_PIN 
 #define ES_UART3_RTS_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_UART3_RTS_PIN 
+#ifdef ES_PIN_GPIO_B_1 
+#define ES_UART3_RTS_PIN ES_PIN_GPIO_B_1 
+#endif
+#endif 
+
 #ifndef ES_UART3_RTS_GPIO_FUNC 
 #define ES_UART3_RTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -604,6 +905,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_RTS_GPIO_PIN 
 #define ES_UART3_RTS_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_UART3_RTS_PIN 
+#ifdef ES_PIN_GPIO_E_13 
+#define ES_UART3_RTS_PIN ES_PIN_GPIO_E_13 
+#endif
+#endif 
+
 #ifndef ES_UART4_RTS_GPIO_FUNC 
 #define ES_UART4_RTS_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -613,6 +921,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_RTS_GPIO_PIN 
 #define ES_UART4_RTS_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_UART4_RTS_PIN 
+#ifdef ES_PIN_GPIO_E_13 
+#define ES_UART4_RTS_PIN ES_PIN_GPIO_E_13 
+#endif
+#endif 
+
 #ifndef ES_UART4_RTS_GPIO_FUNC 
 #define ES_UART4_RTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -622,6 +937,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_RTS_GPIO_PIN 
 #define ES_UART4_RTS_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_UART4_RTS_PIN 
+#ifdef ES_PIN_GPIO_E_1 
+#define ES_UART4_RTS_PIN ES_PIN_GPIO_E_1 
+#endif
+#endif 
+
 #ifndef ES_UART5_RTS_GPIO_FUNC 
 #define ES_UART5_RTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -631,6 +953,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_RTS_GPIO_PIN 
 #define ES_UART5_RTS_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_UART5_RTS_PIN 
+#ifdef ES_PIN_GPIO_A_1 
+#define ES_UART5_RTS_PIN ES_PIN_GPIO_A_1 
+#endif
+#endif 
+
 #ifndef ES_UART5_RTS_GPIO_FUNC 
 #define ES_UART5_RTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -640,6 +969,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_RTS_GPIO_PIN 
 #define ES_UART5_RTS_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_UART5_RTS_PIN 
+#ifdef ES_PIN_GPIO_D_4 
+#define ES_UART5_RTS_PIN ES_PIN_GPIO_D_4 
+#endif
+#endif 
+
 
 /* UART_CTS */
 
@@ -653,6 +989,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_CTS_GPIO_PIN 
 #define ES_UART0_CTS_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_UART0_CTS_PIN 
+#ifdef ES_PIN_GPIO_B_13 
+#define ES_UART0_CTS_PIN ES_PIN_GPIO_B_13 
+#endif
+#endif 
+
 #ifndef ES_UART0_CTS_GPIO_FUNC 
 #define ES_UART0_CTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -662,6 +1005,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART0_CTS_GPIO_PIN 
 #define ES_UART0_CTS_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_UART0_CTS_PIN 
+#ifdef ES_PIN_GPIO_D_11 
+#define ES_UART0_CTS_PIN ES_PIN_GPIO_D_11 
+#endif
+#endif 
+
 #ifndef ES_UART1_CTS_GPIO_FUNC 
 #define ES_UART1_CTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -671,6 +1021,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_CTS_GPIO_PIN 
 #define ES_UART1_CTS_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_UART1_CTS_PIN 
+#ifdef ES_PIN_GPIO_C_2 
+#define ES_UART1_CTS_PIN ES_PIN_GPIO_C_2 
+#endif
+#endif 
+
 #ifndef ES_UART1_CTS_GPIO_FUNC 
 #define ES_UART1_CTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -680,6 +1037,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART1_CTS_GPIO_PIN 
 #define ES_UART1_CTS_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_UART1_CTS_PIN 
+#ifdef ES_PIN_GPIO_D_2 
+#define ES_UART1_CTS_PIN ES_PIN_GPIO_D_2 
+#endif
+#endif 
+
 #ifndef ES_UART2_CTS_GPIO_FUNC 
 #define ES_UART2_CTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -689,6 +1053,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_CTS_GPIO_PIN 
 #define ES_UART2_CTS_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_UART2_CTS_PIN 
+#ifdef ES_PIN_GPIO_E_4 
+#define ES_UART2_CTS_PIN ES_PIN_GPIO_E_4 
+#endif
+#endif 
+
 #ifndef ES_UART2_CTS_GPIO_FUNC 
 #define ES_UART2_CTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -698,6 +1069,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART2_CTS_GPIO_PIN 
 #define ES_UART2_CTS_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_UART2_CTS_PIN 
+#ifdef ES_PIN_GPIO_C_11 
+#define ES_UART2_CTS_PIN ES_PIN_GPIO_C_11 
+#endif
+#endif 
+
 #ifndef ES_UART3_CTS_GPIO_FUNC 
 #define ES_UART3_CTS_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -707,6 +1085,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_CTS_GPIO_PIN 
 #define ES_UART3_CTS_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_UART3_CTS_PIN 
+#ifdef ES_PIN_GPIO_B_0 
+#define ES_UART3_CTS_PIN ES_PIN_GPIO_B_0 
+#endif
+#endif 
+
 #ifndef ES_UART3_CTS_GPIO_FUNC 
 #define ES_UART3_CTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -716,6 +1101,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART3_CTS_GPIO_PIN 
 #define ES_UART3_CTS_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_UART3_CTS_PIN 
+#ifdef ES_PIN_GPIO_E_12 
+#define ES_UART3_CTS_PIN ES_PIN_GPIO_E_12 
+#endif
+#endif 
+
 #ifndef ES_UART4_CTS_GPIO_FUNC 
 #define ES_UART4_CTS_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -725,6 +1117,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_CTS_GPIO_PIN 
 #define ES_UART4_CTS_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_UART4_CTS_PIN 
+#ifdef ES_PIN_GPIO_E_12 
+#define ES_UART4_CTS_PIN ES_PIN_GPIO_E_12 
+#endif
+#endif 
+
 #ifndef ES_UART4_CTS_GPIO_FUNC 
 #define ES_UART4_CTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -734,6 +1133,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_CTS_GPIO_PIN 
 #define ES_UART4_CTS_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_UART4_CTS_PIN 
+#ifdef ES_PIN_GPIO_E_0 
+#define ES_UART4_CTS_PIN ES_PIN_GPIO_E_0 
+#endif
+#endif 
+
 #ifndef ES_UART5_CTS_GPIO_FUNC 
 #define ES_UART5_CTS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -743,6 +1149,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_CTS_GPIO_PIN 
 #define ES_UART5_CTS_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_UART5_CTS_PIN 
+#ifdef ES_PIN_GPIO_A_0 
+#define ES_UART5_CTS_PIN ES_PIN_GPIO_A_0 
+#endif
+#endif 
+
 #ifndef ES_UART5_CTS_GPIO_FUNC 
 #define ES_UART5_CTS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -752,6 +1165,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_CTS_GPIO_PIN 
 #define ES_UART5_CTS_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_UART5_CTS_PIN 
+#ifdef ES_PIN_GPIO_D_3 
+#define ES_UART5_CTS_PIN ES_PIN_GPIO_D_3 
+#endif
+#endif 
+
 
 /* UART_CK */
 
@@ -765,6 +1185,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_CK_GPIO_PIN 
 #define ES_UART4_CK_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_UART4_CK_PIN 
+#ifdef ES_PIN_GPIO_E_6 
+#define ES_UART4_CK_PIN ES_PIN_GPIO_E_6 
+#endif
+#endif 
+
 #ifndef ES_UART4_CK_GPIO_FUNC 
 #define ES_UART4_CK_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -774,6 +1201,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART4_CK_GPIO_PIN 
 #define ES_UART4_CK_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_UART4_CK_PIN 
+#ifdef ES_PIN_GPIO_E_7 
+#define ES_UART4_CK_PIN ES_PIN_GPIO_E_7 
+#endif
+#endif 
+
 #ifndef ES_UART5_CK_GPIO_FUNC 
 #define ES_UART5_CK_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -783,6 +1217,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_CK_GPIO_PIN 
 #define ES_UART5_CK_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_UART5_CK_PIN 
+#ifdef ES_PIN_GPIO_A_4 
+#define ES_UART5_CK_PIN ES_PIN_GPIO_A_4 
+#endif
+#endif 
+
 #ifndef ES_UART5_CK_GPIO_FUNC 
 #define ES_UART5_CK_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -792,6 +1233,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_CK_GPIO_PIN 
 #define ES_UART5_CK_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_UART5_CK_PIN 
+#ifdef ES_PIN_GPIO_D_7 
+#define ES_UART5_CK_PIN ES_PIN_GPIO_D_7 
+#endif
+#endif 
+
 #ifndef ES_UART5_CK_GPIO_FUNC 
 #define ES_UART5_CK_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -801,6 +1249,13 @@ static const struct pin_index pins[] =
 #ifndef ES_UART5_CK_GPIO_PIN 
 #define ES_UART5_CK_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_UART5_CK_PIN 
+#ifdef ES_PIN_GPIO_E_0 
+#define ES_UART5_CK_PIN ES_PIN_GPIO_E_0 
+#endif
+#endif 
+
 
 /* USART_TX */
 
@@ -834,6 +1289,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C0_SCL_GPIO_PIN 
 #define ES_I2C0_SCL_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_I2C0_SCL_PIN 
+#ifdef ES_PIN_GPIO_B_6 
+#define ES_I2C0_SCL_PIN ES_PIN_GPIO_B_6 
+#endif
+#endif 
+
 #ifndef ES_I2C0_SCL_GPIO_FUNC 
 #define ES_I2C0_SCL_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -843,6 +1305,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C0_SCL_GPIO_PIN 
 #define ES_I2C0_SCL_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_I2C0_SCL_PIN 
+#ifdef ES_PIN_GPIO_B_8 
+#define ES_I2C0_SCL_PIN ES_PIN_GPIO_B_8 
+#endif
+#endif 
+
 #ifndef ES_I2C1_SCL_GPIO_FUNC 
 #define ES_I2C1_SCL_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -852,6 +1321,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C1_SCL_GPIO_PIN 
 #define ES_I2C1_SCL_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_I2C1_SCL_PIN 
+#ifdef ES_PIN_GPIO_A_5 
+#define ES_I2C1_SCL_PIN ES_PIN_GPIO_A_5 
+#endif
+#endif 
+
 #ifndef ES_I2C1_SCL_GPIO_FUNC 
 #define ES_I2C1_SCL_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -861,6 +1337,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C1_SCL_GPIO_PIN 
 #define ES_I2C1_SCL_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_I2C1_SCL_PIN 
+#ifdef ES_PIN_GPIO_B_10 
+#define ES_I2C1_SCL_PIN ES_PIN_GPIO_B_10 
+#endif
+#endif 
+
 #ifndef ES_I2C1_SCL_GPIO_FUNC 
 #define ES_I2C1_SCL_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -870,6 +1353,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C1_SCL_GPIO_PIN 
 #define ES_I2C1_SCL_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_I2C1_SCL_PIN 
+#ifdef ES_PIN_GPIO_H_0 
+#define ES_I2C1_SCL_PIN ES_PIN_GPIO_H_0 
+#endif
+#endif 
+
 
 /* I2C_SDA */
 
@@ -883,6 +1373,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C0_SDA_GPIO_PIN 
 #define ES_I2C0_SDA_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_I2C0_SDA_PIN 
+#ifdef ES_PIN_GPIO_B_7 
+#define ES_I2C0_SDA_PIN ES_PIN_GPIO_B_7 
+#endif
+#endif 
+
 #ifndef ES_I2C0_SDA_GPIO_FUNC 
 #define ES_I2C0_SDA_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -892,6 +1389,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C0_SDA_GPIO_PIN 
 #define ES_I2C0_SDA_GPIO_PIN GPIO_PIN_9 
 #endif 
+
+#ifndef ES_I2C0_SDA_PIN 
+#ifdef ES_PIN_GPIO_B_9 
+#define ES_I2C0_SDA_PIN ES_PIN_GPIO_B_9 
+#endif
+#endif 
+
 #ifndef ES_I2C1_SDA_GPIO_FUNC 
 #define ES_I2C1_SDA_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -901,6 +1405,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C1_SDA_GPIO_PIN 
 #define ES_I2C1_SDA_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_I2C1_SDA_PIN 
+#ifdef ES_PIN_GPIO_A_6 
+#define ES_I2C1_SDA_PIN ES_PIN_GPIO_A_6 
+#endif
+#endif 
+
 #ifndef ES_I2C1_SDA_GPIO_FUNC 
 #define ES_I2C1_SDA_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -910,6 +1421,13 @@ static const struct pin_index pins[] =
 #ifndef ES_I2C1_SDA_GPIO_PIN 
 #define ES_I2C1_SDA_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_I2C1_SDA_PIN 
+#ifdef ES_PIN_GPIO_B_11 
+#define ES_I2C1_SDA_PIN ES_PIN_GPIO_B_11 
+#endif
+#endif 
+
 #ifndef ES_I2C1_SDA_GPIO_FUNC 
 #define ES_I2C1_SDA_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -920,9 +1438,16 @@ static const struct pin_index pins[] =
 #define ES_I2C1_SDA_GPIO_PIN GPIO_PIN_1 
 #endif 
 
+#ifndef ES_I2C1_SDA_PIN 
+#ifdef ES_PIN_GPIO_H_1 
+#define ES_I2C1_SDA_PIN ES_PIN_GPIO_H_1 
+#endif
+#endif 
+
+
 /* SPI_MISO */
 
-                             
+
 #ifndef ES_SPI0_MISO_GPIO_FUNC 
 #define ES_SPI0_MISO_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -932,6 +1457,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_MISO_GPIO_PIN 
 #define ES_SPI0_MISO_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_SPI0_MISO_PIN 
+#ifdef ES_PIN_GPIO_B_4 
+#define ES_SPI0_MISO_PIN ES_PIN_GPIO_B_4 
+#endif
+#endif 
+
 #ifndef ES_SPI0_MISO_GPIO_FUNC 
 #define ES_SPI0_MISO_GPIO_FUNC GPIO_FUNC_6 
 #endif 
@@ -941,6 +1473,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_MISO_GPIO_PIN 
 #define ES_SPI0_MISO_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_SPI0_MISO_PIN 
+#ifdef ES_PIN_GPIO_A_6 
+#define ES_SPI0_MISO_PIN ES_PIN_GPIO_A_6 
+#endif
+#endif 
+
 #ifndef ES_SPI0_MISO_GPIO_FUNC 
 #define ES_SPI0_MISO_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -950,6 +1489,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_MISO_GPIO_PIN 
 #define ES_SPI0_MISO_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_SPI0_MISO_PIN 
+#ifdef ES_PIN_GPIO_D_4 
+#define ES_SPI0_MISO_PIN ES_PIN_GPIO_D_4 
+#endif
+#endif 
+
 #ifndef ES_SPI1_MISO_GPIO_FUNC 
 #define ES_SPI1_MISO_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -959,6 +1505,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_MISO_GPIO_PIN 
 #define ES_SPI1_MISO_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_SPI1_MISO_PIN 
+#ifdef ES_PIN_GPIO_C_2 
+#define ES_SPI1_MISO_PIN ES_PIN_GPIO_C_2 
+#endif
+#endif 
+
 #ifndef ES_SPI1_MISO_GPIO_FUNC 
 #define ES_SPI1_MISO_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -968,6 +1521,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_MISO_GPIO_PIN 
 #define ES_SPI1_MISO_GPIO_PIN GPIO_PIN_14 
 #endif 
+
+#ifndef ES_SPI1_MISO_PIN 
+#ifdef ES_PIN_GPIO_B_14 
+#define ES_SPI1_MISO_PIN ES_PIN_GPIO_B_14 
+#endif
+#endif 
+
 #ifndef ES_SPI2_MISO_GPIO_FUNC 
 #define ES_SPI2_MISO_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -977,6 +1537,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_MISO_GPIO_PIN 
 #define ES_SPI2_MISO_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_SPI2_MISO_PIN 
+#ifdef ES_PIN_GPIO_B_4 
+#define ES_SPI2_MISO_PIN ES_PIN_GPIO_B_4 
+#endif
+#endif 
+
 #ifndef ES_SPI2_MISO_GPIO_FUNC 
 #define ES_SPI2_MISO_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -986,6 +1553,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_MISO_GPIO_PIN 
 #define ES_SPI2_MISO_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_SPI2_MISO_PIN 
+#ifdef ES_PIN_GPIO_B_0 
+#define ES_SPI2_MISO_PIN ES_PIN_GPIO_B_0 
+#endif
+#endif 
+
 
 /* SPI_MOSI */
 
@@ -999,6 +1573,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_MOSI_GPIO_PIN 
 #define ES_SPI0_MOSI_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_SPI0_MOSI_PIN 
+#ifdef ES_PIN_GPIO_B_5 
+#define ES_SPI0_MOSI_PIN ES_PIN_GPIO_B_5 
+#endif
+#endif 
+
 #ifndef ES_SPI0_MOSI_GPIO_FUNC 
 #define ES_SPI0_MOSI_GPIO_FUNC GPIO_FUNC_6 
 #endif 
@@ -1008,6 +1589,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_MOSI_GPIO_PIN 
 #define ES_SPI0_MOSI_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_SPI0_MOSI_PIN 
+#ifdef ES_PIN_GPIO_A_7 
+#define ES_SPI0_MOSI_PIN ES_PIN_GPIO_A_7 
+#endif
+#endif 
+
 #ifndef ES_SPI0_MOSI_GPIO_FUNC 
 #define ES_SPI0_MOSI_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1017,6 +1605,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_MOSI_GPIO_PIN 
 #define ES_SPI0_MOSI_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_SPI0_MOSI_PIN 
+#ifdef ES_PIN_GPIO_D_7 
+#define ES_SPI0_MOSI_PIN ES_PIN_GPIO_D_7 
+#endif
+#endif 
+
 #ifndef ES_SPI1_MOSI_GPIO_FUNC 
 #define ES_SPI1_MOSI_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1026,6 +1621,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_MOSI_GPIO_PIN 
 #define ES_SPI1_MOSI_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_SPI1_MOSI_PIN 
+#ifdef ES_PIN_GPIO_C_3 
+#define ES_SPI1_MOSI_PIN ES_PIN_GPIO_C_3 
+#endif
+#endif 
+
 #ifndef ES_SPI1_MOSI_GPIO_FUNC 
 #define ES_SPI1_MOSI_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1035,6 +1637,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_MOSI_GPIO_PIN 
 #define ES_SPI1_MOSI_GPIO_PIN GPIO_PIN_15 
 #endif 
+
+#ifndef ES_SPI1_MOSI_PIN 
+#ifdef ES_PIN_GPIO_B_15 
+#define ES_SPI1_MOSI_PIN ES_PIN_GPIO_B_15 
+#endif
+#endif 
+
 #ifndef ES_SPI2_MOSI_GPIO_FUNC 
 #define ES_SPI2_MOSI_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1044,6 +1653,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_MOSI_GPIO_PIN 
 #define ES_SPI2_MOSI_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_SPI2_MOSI_PIN 
+#ifdef ES_PIN_GPIO_B_5 
+#define ES_SPI2_MOSI_PIN ES_PIN_GPIO_B_5 
+#endif
+#endif 
+
 #ifndef ES_SPI2_MOSI_GPIO_FUNC 
 #define ES_SPI2_MOSI_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1053,6 +1669,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_MOSI_GPIO_PIN 
 #define ES_SPI2_MOSI_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_SPI2_MOSI_PIN 
+#ifdef ES_PIN_GPIO_B_1 
+#define ES_SPI2_MOSI_PIN ES_PIN_GPIO_B_1 
+#endif
+#endif 
+
 
 /* SPI_SCK */
 
@@ -1066,6 +1689,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_SCK_GPIO_PIN 
 #define ES_SPI0_SCK_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_SPI0_SCK_PIN 
+#ifdef ES_PIN_GPIO_B_3 
+#define ES_SPI0_SCK_PIN ES_PIN_GPIO_B_3 
+#endif
+#endif 
+
 #ifndef ES_SPI0_SCK_GPIO_FUNC 
 #define ES_SPI0_SCK_GPIO_FUNC GPIO_FUNC_6 
 #endif 
@@ -1075,6 +1705,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_SCK_GPIO_PIN 
 #define ES_SPI0_SCK_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_SPI0_SCK_PIN 
+#ifdef ES_PIN_GPIO_A_5 
+#define ES_SPI0_SCK_PIN ES_PIN_GPIO_A_5 
+#endif
+#endif 
+
 #ifndef ES_SPI0_SCK_GPIO_FUNC 
 #define ES_SPI0_SCK_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1084,6 +1721,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_SCK_GPIO_PIN 
 #define ES_SPI0_SCK_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_SPI0_SCK_PIN 
+#ifdef ES_PIN_GPIO_D_3 
+#define ES_SPI0_SCK_PIN ES_PIN_GPIO_D_3 
+#endif
+#endif 
+
 #ifndef ES_SPI1_SCK_GPIO_FUNC 
 #define ES_SPI1_SCK_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1093,6 +1737,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_SCK_GPIO_PIN 
 #define ES_SPI1_SCK_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_SPI1_SCK_PIN 
+#ifdef ES_PIN_GPIO_C_1 
+#define ES_SPI1_SCK_PIN ES_PIN_GPIO_C_1 
+#endif
+#endif 
+
 #ifndef ES_SPI1_SCK_GPIO_FUNC 
 #define ES_SPI1_SCK_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1102,6 +1753,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_SCK_GPIO_PIN 
 #define ES_SPI1_SCK_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_SPI1_SCK_PIN 
+#ifdef ES_PIN_GPIO_B_13 
+#define ES_SPI1_SCK_PIN ES_PIN_GPIO_B_13 
+#endif
+#endif 
+
 #ifndef ES_SPI2_SCK_GPIO_FUNC 
 #define ES_SPI2_SCK_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1111,6 +1769,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_SCK_GPIO_PIN 
 #define ES_SPI2_SCK_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_SPI2_SCK_PIN 
+#ifdef ES_PIN_GPIO_C_5 
+#define ES_SPI2_SCK_PIN ES_PIN_GPIO_C_5 
+#endif
+#endif 
+
 #ifndef ES_SPI2_SCK_GPIO_FUNC 
 #define ES_SPI2_SCK_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1121,8 +1786,31 @@ static const struct pin_index pins[] =
 #define ES_SPI2_SCK_GPIO_PIN GPIO_PIN_3 
 #endif 
 
+#ifndef ES_SPI2_SCK_PIN 
+#ifdef ES_PIN_GPIO_B_3 
+#define ES_SPI2_SCK_PIN ES_PIN_GPIO_B_3 
+#endif
+#endif 
+
+
 /* SPI_NSS */
 
+
+#ifndef ES_SPI0_NSS_GPIO_FUNC 
+#define ES_SPI0_NSS_GPIO_FUNC GPIO_FUNC_4 
+#endif 
+#ifndef ES_SPI0_NSS_GPIO_PORT 
+#define ES_SPI0_NSS_GPIO_PORT GPIOA 
+#endif 
+#ifndef ES_SPI0_NSS_GPIO_PIN 
+#define ES_SPI0_NSS_GPIO_PIN GPIO_PIN_15 
+#endif 
+
+#ifndef ES_SPI0_NSS_PIN 
+#ifdef ES_PIN_GPIO_A_15 
+#define ES_SPI0_NSS_PIN ES_PIN_GPIO_A_15 
+#endif
+#endif 
 
 #ifndef ES_SPI0_NSS_GPIO_FUNC 
 #define ES_SPI0_NSS_GPIO_FUNC GPIO_FUNC_6 
@@ -1133,15 +1821,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI0_NSS_GPIO_PIN 
 #define ES_SPI0_NSS_GPIO_PIN GPIO_PIN_4 
 #endif 
-#ifndef ES_SPI0_NSS_GPIO_FUNC 
-#define ES_SPI0_NSS_GPIO_FUNC GPIO_FUNC_4 
+
+#ifndef ES_SPI0_NSS_PIN 
+#ifdef ES_PIN_GPIO_A_4 
+#define ES_SPI0_NSS_PIN ES_PIN_GPIO_A_4 
+#endif
 #endif 
-#ifndef ES_SPI0_NSS_GPIO_PORT 
-#define ES_SPI0_NSS_GPIO_PORT GPIOA 
-#endif 
-#ifndef ES_SPI0_NSS_GPIO_PIN 
-#define ES_SPI0_NSS_GPIO_PIN GPIO_PIN_15 
-#endif 
+
 #ifndef ES_SPI1_NSS_GPIO_FUNC 
 #define ES_SPI1_NSS_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1151,6 +1837,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_NSS_GPIO_PIN 
 #define ES_SPI1_NSS_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_SPI1_NSS_PIN 
+#ifdef ES_PIN_GPIO_C_0 
+#define ES_SPI1_NSS_PIN ES_PIN_GPIO_C_0 
+#endif
+#endif 
+
 #ifndef ES_SPI1_NSS_GPIO_FUNC 
 #define ES_SPI1_NSS_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1160,6 +1853,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI1_NSS_GPIO_PIN 
 #define ES_SPI1_NSS_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_SPI1_NSS_PIN 
+#ifdef ES_PIN_GPIO_B_12 
+#define ES_SPI1_NSS_PIN ES_PIN_GPIO_B_12 
+#endif
+#endif 
+
 #ifndef ES_SPI2_NSS_GPIO_FUNC 
 #define ES_SPI2_NSS_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1169,6 +1869,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_NSS_GPIO_PIN 
 #define ES_SPI2_NSS_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_SPI2_NSS_PIN 
+#ifdef ES_PIN_GPIO_C_4 
+#define ES_SPI2_NSS_PIN ES_PIN_GPIO_C_4 
+#endif
+#endif 
+
 #ifndef ES_SPI2_NSS_GPIO_FUNC 
 #define ES_SPI2_NSS_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1178,6 +1885,13 @@ static const struct pin_index pins[] =
 #ifndef ES_SPI2_NSS_GPIO_PIN 
 #define ES_SPI2_NSS_GPIO_PIN GPIO_PIN_15 
 #endif 
+
+#ifndef ES_SPI2_NSS_PIN 
+#ifdef ES_PIN_GPIO_A_15 
+#define ES_SPI2_NSS_PIN ES_PIN_GPIO_A_15 
+#endif
+#endif 
+
 
 /* CAN_TX */
 
@@ -1192,6 +1906,13 @@ static const struct pin_index pins[] =
 #define ES_CAN0_TX_GPIO_PIN GPIO_PIN_9 
 #endif 
 
+#ifndef ES_CAN0_TX_PIN 
+#ifdef ES_PIN_GPIO_B_9 
+#define ES_CAN0_TX_PIN ES_PIN_GPIO_B_9 
+#endif
+#endif 
+
+
 /* CAN_RX */
 
 
@@ -1205,6 +1926,13 @@ static const struct pin_index pins[] =
 #define ES_CAN0_RX_GPIO_PIN GPIO_PIN_8 
 #endif 
 
+#ifndef ES_CAN0_RX_PIN 
+#ifdef ES_PIN_GPIO_B_8 
+#define ES_CAN0_RX_PIN ES_PIN_GPIO_B_8 
+#endif
+#endif 
+
+
 /* AD16C4T_CH1 */
 
 
@@ -1217,6 +1945,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH1_GPIO_PIN 
 #define ES_AD16C4T0_CH1_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_AD16C4T0_CH1_PIN 
+#ifdef ES_PIN_GPIO_A_7 
+#define ES_AD16C4T0_CH1_PIN ES_PIN_GPIO_A_7 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T0_CH1_GPIO_FUNC 
 #define ES_AD16C4T0_CH1_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1226,6 +1961,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH1_GPIO_PIN 
 #define ES_AD16C4T0_CH1_GPIO_PIN GPIO_PIN_9 
 #endif 
+
+#ifndef ES_AD16C4T0_CH1_PIN 
+#ifdef ES_PIN_GPIO_E_9 
+#define ES_AD16C4T0_CH1_PIN ES_PIN_GPIO_E_9 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_CH1_GPIO_FUNC 
 #define ES_AD16C4T1_CH1_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1235,6 +1977,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_CH1_GPIO_PIN 
 #define ES_AD16C4T1_CH1_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_AD16C4T1_CH1_PIN 
+#ifdef ES_PIN_GPIO_C_6 
+#define ES_AD16C4T1_CH1_PIN ES_PIN_GPIO_C_6 
+#endif
+#endif 
+
 
 /* AD16C4T_CH2 */
 
@@ -1248,6 +1997,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH2_GPIO_PIN 
 #define ES_AD16C4T0_CH2_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_AD16C4T0_CH2_PIN 
+#ifdef ES_PIN_GPIO_E_11 
+#define ES_AD16C4T0_CH2_PIN ES_PIN_GPIO_E_11 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_CH2_GPIO_FUNC 
 #define ES_AD16C4T1_CH2_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1257,6 +2013,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_CH2_GPIO_PIN 
 #define ES_AD16C4T1_CH2_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_AD16C4T1_CH2_PIN 
+#ifdef ES_PIN_GPIO_C_7 
+#define ES_AD16C4T1_CH2_PIN ES_PIN_GPIO_C_7 
+#endif
+#endif 
+
 
 /* AD16C4T_CH3 */
 
@@ -1270,6 +2033,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH3_GPIO_PIN 
 #define ES_AD16C4T0_CH3_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_AD16C4T0_CH3_PIN 
+#ifdef ES_PIN_GPIO_E_13 
+#define ES_AD16C4T0_CH3_PIN ES_PIN_GPIO_E_13 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_CH3_GPIO_FUNC 
 #define ES_AD16C4T1_CH3_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1279,6 +2049,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_CH3_GPIO_PIN 
 #define ES_AD16C4T1_CH3_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_AD16C4T1_CH3_PIN 
+#ifdef ES_PIN_GPIO_C_8 
+#define ES_AD16C4T1_CH3_PIN ES_PIN_GPIO_C_8 
+#endif
+#endif 
+
 
 /* AD16C4T_CH4 */
 
@@ -1293,6 +2070,13 @@ static const struct pin_index pins[] =
 #define ES_AD16C4T0_CH4_GPIO_PIN GPIO_PIN_14 
 #endif 
 
+#ifndef ES_AD16C4T0_CH4_PIN 
+#ifdef ES_PIN_GPIO_E_14 
+#define ES_AD16C4T0_CH4_PIN ES_PIN_GPIO_E_14 
+#endif
+#endif 
+
+
 /* AD16C4T_CH1N */
 
 
@@ -1305,6 +2089,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH1N_GPIO_PIN 
 #define ES_AD16C4T0_CH1N_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_AD16C4T0_CH1N_PIN 
+#ifdef ES_PIN_GPIO_B_13 
+#define ES_AD16C4T0_CH1N_PIN ES_PIN_GPIO_B_13 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T0_CH1N_GPIO_FUNC 
 #define ES_AD16C4T0_CH1N_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1314,6 +2105,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH1N_GPIO_PIN 
 #define ES_AD16C4T0_CH1N_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_AD16C4T0_CH1N_PIN 
+#ifdef ES_PIN_GPIO_E_8 
+#define ES_AD16C4T0_CH1N_PIN ES_PIN_GPIO_E_8 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_CH1N_GPIO_FUNC 
 #define ES_AD16C4T1_CH1N_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1323,6 +2121,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_CH1N_GPIO_PIN 
 #define ES_AD16C4T1_CH1N_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_AD16C4T1_CH1N_PIN 
+#ifdef ES_PIN_GPIO_A_7 
+#define ES_AD16C4T1_CH1N_PIN ES_PIN_GPIO_A_7 
+#endif
+#endif 
+
 
 /* AD16C4T_CH2N */
 
@@ -1336,6 +2141,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH2N_GPIO_PIN 
 #define ES_AD16C4T0_CH2N_GPIO_PIN GPIO_PIN_14 
 #endif 
+
+#ifndef ES_AD16C4T0_CH2N_PIN 
+#ifdef ES_PIN_GPIO_B_14 
+#define ES_AD16C4T0_CH2N_PIN ES_PIN_GPIO_B_14 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T0_CH2N_GPIO_FUNC 
 #define ES_AD16C4T0_CH2N_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1345,6 +2157,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH2N_GPIO_PIN 
 #define ES_AD16C4T0_CH2N_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_AD16C4T0_CH2N_PIN 
+#ifdef ES_PIN_GPIO_E_10 
+#define ES_AD16C4T0_CH2N_PIN ES_PIN_GPIO_E_10 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_CH2N_GPIO_FUNC 
 #define ES_AD16C4T1_CH2N_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1354,6 +2173,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_CH2N_GPIO_PIN 
 #define ES_AD16C4T1_CH2N_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_AD16C4T1_CH2N_PIN 
+#ifdef ES_PIN_GPIO_B_0 
+#define ES_AD16C4T1_CH2N_PIN ES_PIN_GPIO_B_0 
+#endif
+#endif 
+
 
 /* AD16C4T_CH3N */
 
@@ -1367,6 +2193,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH3N_GPIO_PIN 
 #define ES_AD16C4T0_CH3N_GPIO_PIN GPIO_PIN_15 
 #endif 
+
+#ifndef ES_AD16C4T0_CH3N_PIN 
+#ifdef ES_PIN_GPIO_B_15 
+#define ES_AD16C4T0_CH3N_PIN ES_PIN_GPIO_B_15 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T0_CH3N_GPIO_FUNC 
 #define ES_AD16C4T0_CH3N_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1376,6 +2209,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_CH3N_GPIO_PIN 
 #define ES_AD16C4T0_CH3N_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_AD16C4T0_CH3N_PIN 
+#ifdef ES_PIN_GPIO_E_12 
+#define ES_AD16C4T0_CH3N_PIN ES_PIN_GPIO_E_12 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_CH3N_GPIO_FUNC 
 #define ES_AD16C4T1_CH3N_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1385,6 +2225,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_CH3N_GPIO_PIN 
 #define ES_AD16C4T1_CH3N_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_AD16C4T1_CH3N_PIN 
+#ifdef ES_PIN_GPIO_B_1 
+#define ES_AD16C4T1_CH3N_PIN ES_PIN_GPIO_B_1 
+#endif
+#endif 
+
 
 /* AD16C4T_CH4N */
 
@@ -1402,6 +2249,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T0_ET_GPIO_PIN 
 #define ES_AD16C4T0_ET_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_AD16C4T0_ET_PIN 
+#ifdef ES_PIN_GPIO_E_7 
+#define ES_AD16C4T0_ET_PIN ES_PIN_GPIO_E_7 
+#endif
+#endif 
+
 #ifndef ES_AD16C4T1_ET_GPIO_FUNC 
 #define ES_AD16C4T1_ET_GPIO_FUNC GPIO_FUNC_4 
 #endif 
@@ -1411,6 +2265,13 @@ static const struct pin_index pins[] =
 #ifndef ES_AD16C4T1_ET_GPIO_PIN 
 #define ES_AD16C4T1_ET_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_AD16C4T1_ET_PIN 
+#ifdef ES_PIN_GPIO_A_0 
+#define ES_AD16C4T1_ET_PIN ES_PIN_GPIO_A_0 
+#endif
+#endif 
+
 
 /* GP32C4T_CH1 */
 
@@ -1424,6 +2285,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH1_GPIO_PIN 
 #define ES_GP32C4T0_CH1_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_GP32C4T0_CH1_PIN 
+#ifdef ES_PIN_GPIO_A_0 
+#define ES_GP32C4T0_CH1_PIN ES_PIN_GPIO_A_0 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T0_CH1_GPIO_FUNC 
 #define ES_GP32C4T0_CH1_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1433,6 +2301,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH1_GPIO_PIN 
 #define ES_GP32C4T0_CH1_GPIO_PIN GPIO_PIN_15 
 #endif 
+
+#ifndef ES_GP32C4T0_CH1_PIN 
+#ifdef ES_PIN_GPIO_A_15 
+#define ES_GP32C4T0_CH1_PIN ES_PIN_GPIO_A_15 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH1_GPIO_FUNC 
 #define ES_GP32C4T1_CH1_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1442,6 +2317,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH1_GPIO_PIN 
 #define ES_GP32C4T1_CH1_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_GP32C4T1_CH1_PIN 
+#ifdef ES_PIN_GPIO_A_6 
+#define ES_GP32C4T1_CH1_PIN ES_PIN_GPIO_A_6 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH1_GPIO_FUNC 
 #define ES_GP32C4T1_CH1_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1451,6 +2333,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH1_GPIO_PIN 
 #define ES_GP32C4T1_CH1_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_GP32C4T1_CH1_PIN 
+#ifdef ES_PIN_GPIO_C_6 
+#define ES_GP32C4T1_CH1_PIN ES_PIN_GPIO_C_6 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH1_GPIO_FUNC 
 #define ES_GP32C4T1_CH1_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1460,6 +2349,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH1_GPIO_PIN 
 #define ES_GP32C4T1_CH1_GPIO_PIN GPIO_PIN_4 
 #endif 
+
+#ifndef ES_GP32C4T1_CH1_PIN 
+#ifdef ES_PIN_GPIO_B_4 
+#define ES_GP32C4T1_CH1_PIN ES_PIN_GPIO_B_4 
+#endif
+#endif 
+
 
 /* GP32C4T_CH2 */
 
@@ -1473,6 +2369,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH2_GPIO_PIN 
 #define ES_GP32C4T0_CH2_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_GP32C4T0_CH2_PIN 
+#ifdef ES_PIN_GPIO_A_1 
+#define ES_GP32C4T0_CH2_PIN ES_PIN_GPIO_A_1 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T0_CH2_GPIO_FUNC 
 #define ES_GP32C4T0_CH2_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1482,6 +2385,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH2_GPIO_PIN 
 #define ES_GP32C4T0_CH2_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_GP32C4T0_CH2_PIN 
+#ifdef ES_PIN_GPIO_B_3 
+#define ES_GP32C4T0_CH2_PIN ES_PIN_GPIO_B_3 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH2_GPIO_FUNC 
 #define ES_GP32C4T1_CH2_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1491,6 +2401,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH2_GPIO_PIN 
 #define ES_GP32C4T1_CH2_GPIO_PIN GPIO_PIN_5 
 #endif 
+
+#ifndef ES_GP32C4T1_CH2_PIN 
+#ifdef ES_PIN_GPIO_B_5 
+#define ES_GP32C4T1_CH2_PIN ES_PIN_GPIO_B_5 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH2_GPIO_FUNC 
 #define ES_GP32C4T1_CH2_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1500,6 +2417,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH2_GPIO_PIN 
 #define ES_GP32C4T1_CH2_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_GP32C4T1_CH2_PIN 
+#ifdef ES_PIN_GPIO_A_7 
+#define ES_GP32C4T1_CH2_PIN ES_PIN_GPIO_A_7 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH2_GPIO_FUNC 
 #define ES_GP32C4T1_CH2_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1509,6 +2433,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH2_GPIO_PIN 
 #define ES_GP32C4T1_CH2_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_GP32C4T1_CH2_PIN 
+#ifdef ES_PIN_GPIO_C_7 
+#define ES_GP32C4T1_CH2_PIN ES_PIN_GPIO_C_7 
+#endif
+#endif 
+
 
 /* GP32C4T_CH3 */
 
@@ -1522,6 +2453,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH3_GPIO_PIN 
 #define ES_GP32C4T0_CH3_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_GP32C4T0_CH3_PIN 
+#ifdef ES_PIN_GPIO_A_2 
+#define ES_GP32C4T0_CH3_PIN ES_PIN_GPIO_A_2 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T0_CH3_GPIO_FUNC 
 #define ES_GP32C4T0_CH3_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1531,6 +2469,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH3_GPIO_PIN 
 #define ES_GP32C4T0_CH3_GPIO_PIN GPIO_PIN_10 
 #endif 
+
+#ifndef ES_GP32C4T0_CH3_PIN 
+#ifdef ES_PIN_GPIO_B_10 
+#define ES_GP32C4T0_CH3_PIN ES_PIN_GPIO_B_10 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH3_GPIO_FUNC 
 #define ES_GP32C4T1_CH3_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1540,6 +2485,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH3_GPIO_PIN 
 #define ES_GP32C4T1_CH3_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_GP32C4T1_CH3_PIN 
+#ifdef ES_PIN_GPIO_B_0 
+#define ES_GP32C4T1_CH3_PIN ES_PIN_GPIO_B_0 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH3_GPIO_FUNC 
 #define ES_GP32C4T1_CH3_GPIO_FUNC GPIO_FUNC_3 
 #endif 
@@ -1549,6 +2501,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH3_GPIO_PIN 
 #define ES_GP32C4T1_CH3_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_GP32C4T1_CH3_PIN 
+#ifdef ES_PIN_GPIO_C_8 
+#define ES_GP32C4T1_CH3_PIN ES_PIN_GPIO_C_8 
+#endif
+#endif 
+
 
 /* GP32C4T_CH4 */
 
@@ -1562,6 +2521,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH4_GPIO_PIN 
 #define ES_GP32C4T0_CH4_GPIO_PIN GPIO_PIN_11 
 #endif 
+
+#ifndef ES_GP32C4T0_CH4_PIN 
+#ifdef ES_PIN_GPIO_B_11 
+#define ES_GP32C4T0_CH4_PIN ES_PIN_GPIO_B_11 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T0_CH4_GPIO_FUNC 
 #define ES_GP32C4T0_CH4_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1571,6 +2537,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_CH4_GPIO_PIN 
 #define ES_GP32C4T0_CH4_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_GP32C4T0_CH4_PIN 
+#ifdef ES_PIN_GPIO_A_3 
+#define ES_GP32C4T0_CH4_PIN ES_PIN_GPIO_A_3 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_CH4_GPIO_FUNC 
 #define ES_GP32C4T1_CH4_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1580,6 +2553,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_CH4_GPIO_PIN 
 #define ES_GP32C4T1_CH4_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_GP32C4T1_CH4_PIN 
+#ifdef ES_PIN_GPIO_B_1 
+#define ES_GP32C4T1_CH4_PIN ES_PIN_GPIO_B_1 
+#endif
+#endif 
+
 
 /* GP32C4T_ET */
 
@@ -1593,6 +2573,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_ET_GPIO_PIN 
 #define ES_GP32C4T0_ET_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_GP32C4T0_ET_PIN 
+#ifdef ES_PIN_GPIO_A_0 
+#define ES_GP32C4T0_ET_PIN ES_PIN_GPIO_A_0 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T0_ET_GPIO_FUNC 
 #define ES_GP32C4T0_ET_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1602,6 +2589,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T0_ET_GPIO_PIN 
 #define ES_GP32C4T0_ET_GPIO_PIN GPIO_PIN_15 
 #endif 
+
+#ifndef ES_GP32C4T0_ET_PIN 
+#ifdef ES_PIN_GPIO_A_15 
+#define ES_GP32C4T0_ET_PIN ES_PIN_GPIO_A_15 
+#endif
+#endif 
+
 #ifndef ES_GP32C4T1_ET_GPIO_FUNC 
 #define ES_GP32C4T1_ET_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1611,6 +2605,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP32C4T1_ET_GPIO_PIN 
 #define ES_GP32C4T1_ET_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_GP32C4T1_ET_PIN 
+#ifdef ES_PIN_GPIO_D_2 
+#define ES_GP32C4T1_ET_PIN ES_PIN_GPIO_D_2 
+#endif
+#endif 
+
 
 /* GP16C4T_CH1 */
 
@@ -1624,6 +2625,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH1_GPIO_PIN 
 #define ES_GP16C4T0_CH1_GPIO_PIN GPIO_PIN_6 
 #endif 
+
+#ifndef ES_GP16C4T0_CH1_PIN 
+#ifdef ES_PIN_GPIO_B_6 
+#define ES_GP16C4T0_CH1_PIN ES_PIN_GPIO_B_6 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T0_CH1_GPIO_FUNC 
 #define ES_GP16C4T0_CH1_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1633,6 +2641,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH1_GPIO_PIN 
 #define ES_GP16C4T0_CH1_GPIO_PIN GPIO_PIN_12 
 #endif 
+
+#ifndef ES_GP16C4T0_CH1_PIN 
+#ifdef ES_PIN_GPIO_D_12 
+#define ES_GP16C4T0_CH1_PIN ES_PIN_GPIO_D_12 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T1_CH1_GPIO_FUNC 
 #define ES_GP16C4T1_CH1_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1642,6 +2657,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T1_CH1_GPIO_PIN 
 #define ES_GP16C4T1_CH1_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_GP16C4T1_CH1_PIN 
+#ifdef ES_PIN_GPIO_A_0 
+#define ES_GP16C4T1_CH1_PIN ES_PIN_GPIO_A_0 
+#endif
+#endif 
+
 
 /* GP16C4T_CH2 */
 
@@ -1655,6 +2677,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH2_GPIO_PIN 
 #define ES_GP16C4T0_CH2_GPIO_PIN GPIO_PIN_7 
 #endif 
+
+#ifndef ES_GP16C4T0_CH2_PIN 
+#ifdef ES_PIN_GPIO_B_7 
+#define ES_GP16C4T0_CH2_PIN ES_PIN_GPIO_B_7 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T0_CH2_GPIO_FUNC 
 #define ES_GP16C4T0_CH2_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1664,6 +2693,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH2_GPIO_PIN 
 #define ES_GP16C4T0_CH2_GPIO_PIN GPIO_PIN_13 
 #endif 
+
+#ifndef ES_GP16C4T0_CH2_PIN 
+#ifdef ES_PIN_GPIO_D_13 
+#define ES_GP16C4T0_CH2_PIN ES_PIN_GPIO_D_13 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T1_CH2_GPIO_FUNC 
 #define ES_GP16C4T1_CH2_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1673,6 +2709,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T1_CH2_GPIO_PIN 
 #define ES_GP16C4T1_CH2_GPIO_PIN GPIO_PIN_1 
 #endif 
+
+#ifndef ES_GP16C4T1_CH2_PIN 
+#ifdef ES_PIN_GPIO_A_1 
+#define ES_GP16C4T1_CH2_PIN ES_PIN_GPIO_A_1 
+#endif
+#endif 
+
 
 /* GP16C4T_CH3 */
 
@@ -1686,6 +2729,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH3_GPIO_PIN 
 #define ES_GP16C4T0_CH3_GPIO_PIN GPIO_PIN_8 
 #endif 
+
+#ifndef ES_GP16C4T0_CH3_PIN 
+#ifdef ES_PIN_GPIO_B_8 
+#define ES_GP16C4T0_CH3_PIN ES_PIN_GPIO_B_8 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T0_CH3_GPIO_FUNC 
 #define ES_GP16C4T0_CH3_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1695,6 +2745,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH3_GPIO_PIN 
 #define ES_GP16C4T0_CH3_GPIO_PIN GPIO_PIN_14 
 #endif 
+
+#ifndef ES_GP16C4T0_CH3_PIN 
+#ifdef ES_PIN_GPIO_D_14 
+#define ES_GP16C4T0_CH3_PIN ES_PIN_GPIO_D_14 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T1_CH3_GPIO_FUNC 
 #define ES_GP16C4T1_CH3_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1704,6 +2761,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T1_CH3_GPIO_PIN 
 #define ES_GP16C4T1_CH3_GPIO_PIN GPIO_PIN_2 
 #endif 
+
+#ifndef ES_GP16C4T1_CH3_PIN 
+#ifdef ES_PIN_GPIO_A_2 
+#define ES_GP16C4T1_CH3_PIN ES_PIN_GPIO_A_2 
+#endif
+#endif 
+
 
 /* GP16C4T_CH4 */
 
@@ -1717,6 +2781,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH4_GPIO_PIN 
 #define ES_GP16C4T0_CH4_GPIO_PIN GPIO_PIN_9 
 #endif 
+
+#ifndef ES_GP16C4T0_CH4_PIN 
+#ifdef ES_PIN_GPIO_B_9 
+#define ES_GP16C4T0_CH4_PIN ES_PIN_GPIO_B_9 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T0_CH4_GPIO_FUNC 
 #define ES_GP16C4T0_CH4_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1726,6 +2797,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_CH4_GPIO_PIN 
 #define ES_GP16C4T0_CH4_GPIO_PIN GPIO_PIN_15 
 #endif 
+
+#ifndef ES_GP16C4T0_CH4_PIN 
+#ifdef ES_PIN_GPIO_D_15 
+#define ES_GP16C4T0_CH4_PIN ES_PIN_GPIO_D_15 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T1_CH4_GPIO_FUNC 
 #define ES_GP16C4T1_CH4_GPIO_FUNC GPIO_FUNC_5 
 #endif 
@@ -1735,6 +2813,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T1_CH4_GPIO_PIN 
 #define ES_GP16C4T1_CH4_GPIO_PIN GPIO_PIN_3 
 #endif 
+
+#ifndef ES_GP16C4T1_CH4_PIN 
+#ifdef ES_PIN_GPIO_A_3 
+#define ES_GP16C4T1_CH4_PIN ES_PIN_GPIO_A_3 
+#endif
+#endif 
+
 
 /* GP16C4T_ET */
 
@@ -1748,6 +2833,13 @@ static const struct pin_index pins[] =
 #ifndef ES_GP16C4T0_ET_GPIO_PIN 
 #define ES_GP16C4T0_ET_GPIO_PIN GPIO_PIN_0 
 #endif 
+
+#ifndef ES_GP16C4T0_ET_PIN 
+#ifdef ES_PIN_GPIO_E_0 
+#define ES_GP16C4T0_ET_PIN ES_PIN_GPIO_E_0 
+#endif
+#endif 
+
 #ifndef ES_GP16C4T1_ET_GPIO_FUNC 
 #define ES_GP16C4T1_ET_GPIO_FUNC GPIO_FUNC_2 
 #endif 
@@ -1758,6 +2850,26 @@ static const struct pin_index pins[] =
 #define ES_GP16C4T1_ET_GPIO_PIN GPIO_PIN_3 
 #endif 
 
+#ifndef ES_GP16C4T1_ET_PIN 
+#ifdef ES_PIN_GPIO_D_3 
+#define ES_GP16C4T1_ET_PIN ES_PIN_GPIO_D_3 
+#endif
+#endif 
+
+
+/* GP16C2T_CH1 */
+
+
+
+/* GP16C2T_CH2 */
+
+
+
+/* GP16C2T_CH1N */
+
+
+
+/* GP16C2T_CH2N */
 
 
 

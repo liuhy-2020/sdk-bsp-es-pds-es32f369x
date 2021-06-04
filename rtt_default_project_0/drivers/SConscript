@@ -40,6 +40,10 @@ if GetDepend(['BSP_USING_ADC0']) or GetDepend('BSP_USING_ADC1'):
 if GetDepend(['BSP_USING_RTC']):
     src += ['drv_rtc.c']
 
+# add spi flash driver code
+if GetDepend('BSP_USING_SPI_FLASH'):
+    src += ['drv_spiflash.c']
+
 # add hwtimer driver code
 if GetDepend('BSP_USING_AD16C4T0_HWTIMER') or GetDepend('BSP_USING_AD16C4T1_HWTIMER') or \
     GetDepend('BSP_USING_GP32C4T0_HWTIMER') or GetDepend('BSP_USING_GP32C4T1_HWTIMER') or \
@@ -73,6 +77,9 @@ if GetDepend('BSP_USING_EXAMPLE_HWTIMER'):
 
 if GetDepend('BSP_USING_EXAMPLE_I2C'):
     src += ['bsp_driver_example/i2c_sample.c']
+
+if GetDepend('BSP_USING_EXAMPLE_I2C_E2PROM'):
+    src += ['bsp_driver_example/i2c_e2_sample.c']
 
 if GetDepend('BSP_USING_EXAMPLE_LED_BLINK'):
     src += ['bsp_driver_example/led_blink_sample.c']

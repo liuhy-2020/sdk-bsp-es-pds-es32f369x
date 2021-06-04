@@ -96,20 +96,7 @@
 #endif                
 #ifndef  ES_DEVICE_NAME_BS16T1_HWTIMER
 #define  ES_DEVICE_NAME_BS16T1_HWTIMER     "timer7"
-#endif                
+#endif    
 
-
-#ifdef ss
-
-#define aa
-
-#endif
-
-
-#if (1)
-
-#define     BS1
-
-#endif
 
 #endif

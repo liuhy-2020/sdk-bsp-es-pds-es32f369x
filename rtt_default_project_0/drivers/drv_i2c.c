@@ -55,7 +55,18 @@ static void _i2c_init(void)
     gpio_instruct.type = GPIO_TYPE_CMOS;
     
 
-#ifdef BSP_USING_I2C0
+#ifdef BSP_USING_I2C0             
+    
+#if  defined(ES_I2C0_SCL_GPIO_FUNC)&&defined(ES_I2C0_SCL_GPIO_PORT)&&defined(ES_I2C0_SCL_GPIO_PIN)     
+    gpio_instruct.func = ES_I2C0_SCL_GPIO_FUNC;
+    ald_gpio_init(ES_I2C0_SCL_GPIO_PORT, ES_I2C0_SCL_GPIO_PIN, &gpio_instruct);
+#endif                            
+             
+#if  defined(ES_I2C0_SDA_GPIO_FUNC)&&defined(ES_I2C0_SDA_GPIO_PORT)&&defined(ES_I2C0_SDA_GPIO_PIN)
+    gpio_instruct.func = ES_I2C0_SDA_GPIO_FUNC;
+    ald_gpio_init(ES_I2C0_SDA_GPIO_PORT, ES_I2C0_SDA_GPIO_PIN, &gpio_instruct); 
+#endif                            
+
     /* Initialize I2C Function */
     _h_i2c0.perh = I2C0;      
     _h_i2c0.init.module       = I2C_MODULE_MASTER;
@@ -68,19 +79,20 @@ static void _i2c_init(void)
     ald_i2c_reset(&_h_i2c0);
     ald_i2c_init(&_h_i2c0);
                
-#if  defined(ES_I2C0_SCL_GPIO_FUNC)&&defined(ES_I2C0_SCL_GPIO_PORT)&&defined(ES_I2C0_SCL_GPIO_PIN)     
-    gpio_instruct.func = ES_I2C0_SCL_GPIO_FUNC;
-    ald_gpio_init(ES_I2C0_SCL_GPIO_PORT, ES_I2C0_SCL_GPIO_PIN, &gpio_instruct);
-#endif                            
-             
-#if  defined(ES_I2C0_SDA_GPIO_FUNC)&&defined(ES_I2C0_SDA_GPIO_PORT)&&defined(ES_I2C0_SDA_GPIO_PIN)
-    gpio_instruct.func = ES_I2C0_SDA_GPIO_FUNC;
-    ald_gpio_init(ES_I2C0_SDA_GPIO_PORT, ES_I2C0_SDA_GPIO_PIN, &gpio_instruct); 
-#endif                            
-
 #endif
 
-#ifdef BSP_USING_I2C1
+#ifdef BSP_USING_I2C1  
+
+#if  defined(ES_I2C1_SDA_GPIO_FUNC)&&defined(ES_I2C1_SDA_GPIO_PORT)&&defined(ES_I2C1_SDA_GPIO_PIN)    
+    gpio_instruct.func = ES_I2C1_SDA_GPIO_FUNC;
+    ald_gpio_init(ES_I2C1_SDA_GPIO_PORT, ES_I2C1_SDA_GPIO_PIN, &gpio_instruct);
+#endif          
+                                                               
+#if  defined(ES_I2C1_SDA_GPIO_FUNC)&&defined(ES_I2C1_SDA_GPIO_PORT)&&defined(ES_I2C1_SDA_GPIO_PIN)   
+    gpio_instruct.func = ES_I2C1_SDA_GPIO_FUNC;
+    ald_gpio_init(ES_I2C1_SDA_GPIO_PORT, ES_I2C1_SDA_GPIO_PIN, &gpio_instruct);
+#endif        
+
     /* Initialize i2c function */
     _h_i2c1.perh = I2C1;               
     _h_i2c1.init.module       = I2C_MODULE_MASTER;  
@@ -93,16 +105,6 @@ static void _i2c_init(void)
     ald_i2c_reset(&_h_i2c1);
     ald_i2c_init(&_h_i2c1);
      
-#if  defined(ES_I2C1_SDA_GPIO_FUNC)&&defined(ES_I2C1_SDA_GPIO_PORT)&&defined(ES_I2C1_SDA_GPIO_PIN)    
-    gpio_instruct.func = ES_I2C1_SDA_GPIO_FUNC;
-    ald_gpio_init(ES_I2C1_SDA_GPIO_PORT, ES_I2C1_SDA_GPIO_PIN, &gpio_instruct);
-#endif          
-                                                               
-#if  defined(ES_I2C1_SDA_GPIO_FUNC)&&defined(ES_I2C1_SDA_GPIO_PORT)&&defined(ES_I2C1_SDA_GPIO_PIN)   
-    gpio_instruct.func = ES_I2C1_SDA_GPIO_FUNC;
-    ald_gpio_init(ES_I2C1_SDA_GPIO_PORT, ES_I2C1_SDA_GPIO_PIN, &gpio_instruct);
-#endif        
-
 #endif
 }
 
