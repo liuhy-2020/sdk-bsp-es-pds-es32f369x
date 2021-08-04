@@ -99,5 +99,5 @@ features_zh:
 - "调试接口：SWD"
 pkg_type: Board_Support_Packages
 pkg_vendor: 'RealThread'
-pkg_version: 0.0.1
+pkg_version: 0.0.2
 yaml_version: 1

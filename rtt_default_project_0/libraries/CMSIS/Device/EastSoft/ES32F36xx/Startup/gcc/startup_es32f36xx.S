@@ -1,17 +1,41 @@
 /**
   ******************************************************************************
+
   * @file      startup_es32f36xx.s
   * @author    AE Team
   * @brief     ES32F36xx devices vector table for GCC toolchain.
   *            This module performs:
   *                - Set the initial SP
   *                - Set the initial PC == Reset_Handler,
-  *                - Set the vector table entries with the exceptions ISR address
+  *                - Set the vector table entries with the exceptions ISR addres
+s
   *                - Branches to main in the C library (which eventually
   *                  calls main()).
   *            After Reset the Cortex-M3 processor is in Thread mode,
   *            priority is Privileged, and the Stack is set to Main.
+  * @note
+  *          Change Logs:
+  *          Date            Author          Notes
+  *          23 Jan 2019     AE Team         The first version
+  *
+  * Copyright (C) Shanghai Eastsoft Microelectronics Co. Ltd. All rights reserve
+d.
+  *
+  * SPDX-License-Identifier: Apache-2.0
+  *
+  * Licensed under the Apache License, Version 2.0 (the License); you may
+  * not use this file except in compliance with the License.
+  * You may obtain a copy of the License at
+  *
+  * www.apache.org/licenses/LICENSE-2.0
+  *
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an AS IS BASIS, WITHOUT
+  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
   ******************************************************************************
+****
   */
 
   .syntax unified
@@ -41,6 +65,48 @@ defined in linker script */
 Reset_Handler:
   ldr   r0, =_estack
   mov   sp, r0          /* set stack pointer */
+  
+  ldr r0, =0x55AA6996
+  ldr r1, =0x40080000
+  str r0, [r1]
+  
+  ldr r0, =0x5A962814
+  ldr r1, =0x40080100
+  str r0, [r1]
+  ldr r0, =0xE7CB69A5
+  str r0, [r1]
+  
+  ldr r0, =0x40083C00
+  ldr r1, [r0]
+  ldr r2, =0xffff
+  and r1, r2
+  ldr r2, =0x55AA0000
+  orr r1, r2
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  str r1, [r0]
+  
+  mov r0, r0
+  mov r0, r0
+  
+  ldr r0, =0x123456
+  ldr r1, =0x40080100
+  str r0, [r1]
+  
+  ldr r0, =0x40080404
+  ldr r1, =0x4000000
+  str r1, [r0]
+  
+  ldr r0, =0x123456
+  ldr r1, =0x40080000
+  str r0, [r1]
 
 /* Copy the data segment initializers from flash to SRAM */
   ldr r0, =_sdata
@@ -72,6 +138,9 @@ FillZerobss:
 LoopFillZerobss:
   cmp r2, r4
   bcc FillZerobss
+  
+  bl sys_config
+  bl adc_config
 
 /*bl __libc_init_array
 
