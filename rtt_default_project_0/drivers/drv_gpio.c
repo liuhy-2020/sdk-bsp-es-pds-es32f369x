@@ -274,8 +274,8 @@ void es32f3_pin_mode(rt_device_t dev, rt_base_t pin, rt_base_t mode)
     /* Configure GPIO_InitStructure */
     gpio_initstruct.mode = GPIO_MODE_OUTPUT;
     gpio_initstruct.func = GPIO_FUNC_1;
-    gpio_initstruct.podrv = GPIO_OUT_DRIVE_1;
-    gpio_initstruct.nodrv = GPIO_OUT_DRIVE_0_1;
+    gpio_initstruct.podrv = GPIO_OUT_DRIVE_6;
+    gpio_initstruct.nodrv = GPIO_OUT_DRIVE_6;
     gpio_initstruct.type = GPIO_TYPE_CMOS;
     gpio_initstruct.odos = GPIO_PUSH_PULL; 
     gpio_initstruct.flt = GPIO_FILTER_DISABLE;
@@ -448,8 +448,8 @@ rt_err_t es32f3_pin_irq_enable(struct rt_device *device, rt_base_t pin,
         /* Configure GPIO_InitStructure */
         gpio_initstruct.mode = GPIO_MODE_INPUT;
         gpio_initstruct.odos = GPIO_PUSH_PULL;
-        gpio_initstruct.podrv = GPIO_OUT_DRIVE_1; 
-        gpio_initstruct.nodrv = GPIO_OUT_DRIVE_1; 
+        gpio_initstruct.podrv = GPIO_OUT_DRIVE_6; 
+        gpio_initstruct.nodrv = GPIO_OUT_DRIVE_6; 
         gpio_initstruct.func = GPIO_FUNC_1; 
         gpio_initstruct.flt = GPIO_FILTER_DISABLE;
         switch (pin_irq_hdr_tab[irqindex].mode)
