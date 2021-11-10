@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2006-2018, RT-Thread Development Team
+ * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -15,7 +15,7 @@
 */
 
 #include <rtthread.h>
-#include <rtdevice.h>   
+#include <rtdevice.h>
 #include "drv_gpio.h"
 
 /* 引脚编号，通过查看驱动文件drv_gpio.c确定 */

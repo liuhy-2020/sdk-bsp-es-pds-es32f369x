@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2006-2018, RT-Thread Development Team
+ * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -41,7 +41,7 @@ static int rtc_sample(int argc, char *argv[])
     }
 
     /* 延时3秒 */
-    rt_thread_mdelay(3000);  
+    rt_thread_mdelay(3000);
 
     /* 获取时间 */
     now = time(RT_NULL);
