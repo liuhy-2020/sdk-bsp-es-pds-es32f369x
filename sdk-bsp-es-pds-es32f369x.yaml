@@ -73,7 +73,7 @@ default_projects:
     package_name: RT-Thread
     package_type: RT-Thread_Source_Code
     package_vendor: ''
-    package_version: latest
+    package_version: 4.0.4
     source_path_offset: rt-thread
     target_path_offset: rt-thread
   project_description: ''
