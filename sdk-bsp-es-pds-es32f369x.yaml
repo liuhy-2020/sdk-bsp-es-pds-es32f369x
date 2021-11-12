@@ -63,9 +63,7 @@ default_projects:
   - files_and_folders:
     - components
     - include
-    - libcpu/arm
-    - libcpu/Kconfig
-    - libcpu/Sconscript
+    - libcpu
     - src
     - tools
     - Kconfig
@@ -99,5 +97,5 @@ features_zh:
 - "调试接口：SWD"
 pkg_type: Board_Support_Packages
 pkg_vendor: 'RealThread'
-pkg_version: 1.0.2
+pkg_version: 1.0.3
 yaml_version: 1
