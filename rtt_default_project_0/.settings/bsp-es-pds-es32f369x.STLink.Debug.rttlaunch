@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.cdt.debug.gdbjtag.launchConfigurationType">
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.adapterName" value="ST-LINK"/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}\repo\Extract\Chip_Support_Packages\RealThread\ES32F3\0.0.1\SVD\ES32F36xx.svd"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}\repo\Extract\Board_Support_Packages\essemi\ES-PDS-ES32F369X\1.0.3\rtt_default_project_0\debug_svd\es32f36xx.svd"/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.connectMode" value="NORMAL"/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.debugInterface" value="SWD"/>
 <intAttribute key="org.eclipse.cdt.debug.gdbjtag.core.delay" value="3"/>

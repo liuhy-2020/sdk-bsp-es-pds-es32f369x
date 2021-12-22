@@ -22,7 +22,7 @@
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.pyocd.otherInitCommands" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.pyocd.otherRunCommands" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.pyocd.secondResetType" value="halt"/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}repo\Extract\Chip_Support_Packages\RealThread\ES32F3\0.0.1\debug\svd\es32f36xx.svd"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}repo\Extract\Board_Support_Packages\essemi\ES-PDS-ES32F369X\1.0.3\rtt_default_project_0\debug_svd\es32f36xx.svd"/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageFileName" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageOffset" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.jtagDevice" value="GNU MCU PyOCD"/>
