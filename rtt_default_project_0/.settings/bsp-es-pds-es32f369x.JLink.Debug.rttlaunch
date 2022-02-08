@@ -44,7 +44,7 @@
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.swoEnableTargetCpuFreq" value="0"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.swoEnableTargetPortMask" value="0x1"/>
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.jlink.swoEnableTargetSwoFreq" value="0"/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}\repo\Extract\Board_Support_Packages\essemi\ES-PDS-ES32F369X\1.0.3\rtt_default_project_0\debug_svd\es32f36xx.svd"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}\repo\Extract\Board_Support_Packages\essemi\ES-PDS-ES32F369X\1.0.4\rtt_default_project_0\debug_svd\es32f36xx.svd"/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageFileName" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageOffset" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.jtagDevice" value="GNU MCU J-Link"/>

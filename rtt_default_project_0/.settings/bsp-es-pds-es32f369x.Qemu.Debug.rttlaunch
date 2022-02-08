@@ -18,7 +18,7 @@
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.qemu.gdbServerTapName" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.qemu.otherInitCommands" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.qemu.otherRunCommands" value=""/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}\repo\Extract\Board_Support_Packages\essemi\ES-PDS-ES32F369X\1.0.3\rtt_default_project_0\debug_svd\es32f36xx.svd"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="${rtt_install_path}\repo\Extract\Board_Support_Packages\essemi\ES-PDS-ES32F369X\1.0.4\rtt_default_project_0\debug_svd\es32f36xx.svd"/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageFileName" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageOffset" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.jtagDevice" value="GNU MCU QEMU"/>
